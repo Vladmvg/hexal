@@ -55,57 +55,67 @@ nav {
 }
 
 .sub-header-triangle::before {
-	content: "";
-	width: 410px;
-	height: 2px;
-	background-color: #e4e9eb;
-	display: inline-block;
 	position: relative;
 	bottom: 26px;
 	left: -480px;
+	
+	content: "";
+	display: inline-block;
+	width: 410px;
+	height: 2px;
+	
+	background-color: #e4e9eb;
 }
 
 .sub-header-triangle {
 	width: 0;
 	height: 0;
+	margin: 0 auto;
+	
 	border-style: solid;
 	border-width: 25px 45px 0 45px;
 	border-color: #323232 transparent transparent transparent;
-	margin: 0 auto;
 }
 
 .sub-header-triangle::after {
-	content: "";
-	width: 410px;
-	height: 2px;
-	background-color: #e4e9eb;
-	display: inline-block;
 	position: relative;
 	left: 70px;
 	bottom: 45px;
+	
+	content: "";
+	display: inline-block;
+	width: 410px;
+	height: 2px;
+
+	background-color: #e4e9eb;
 }
 
 .img {
+	display: inline-block;
 	width: 181px;
 	height: 209px;
-	background-color: transparent;
 	margin: 8px;
-	transform: rotate(60deg);
+	
+	background-color: transparent;
 	overflow: hidden;
-	display: inline-block;
+
+	transform: rotate(60deg);
 }
 
 .img-layr-1 {
 	width: 100%;
 	height: 100%;
+	
 	background-color: transparent;
-	transform: rotate(-120deg);
 	overflow: hidden;
+	
+	transform: rotate(-120deg);	
 }
 
 .img-layr-2 {
 	width: 100%;
 	height: 100%;
+
 	transform: rotate(60deg);
 }
 
@@ -113,57 +123,67 @@ nav {
 	width: 810px;
 	margin: 53px auto 0px;
 }
+
 .row-2 {
 	width: 1001px;
 	margin: -60px auto 0px;
 }
+
 .row-3 {
 	width: 810px;
 	margin: -60px auto 0px;
 }
 
 .row-1::before {
-	content: "";
-	width: 1px;
-	height: 102px;
-	background-color: #e4e9eb;
-	display: inline-block;
 	position: relative;
 	bottom: 61px;
 	right: 7px;
+	
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 102px;
+
+	background-color: #e4e9eb;	
 }	
 
 .row-1::after {
-	content: "";
-	width: 1px;
-	height: 102px;
-	background-color: #e4e9eb;
-	display: inline-block;
 	position: relative;
 	bottom: 64px;
 	left: 6px;
+	
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 102px;
+	
+	background-color: #e4e9eb;
 }
 
 .row-3::before {
-	content: "";
-	width: 1px;
-	height: 102px;
-	background-color: #e4e9eb;
-	display: inline-block;
 	position: relative;
 	bottom: 61px;
 	right: 7px;
-}
-
-.row-3::after {
+	
+	display: inline-block;
 	content: "";
 	width: 1px;
 	height: 102px;
+	
 	background-color: #e4e9eb;
-	display: inline-block;
+}
+
+.row-3::after {
 	position: relative;
 	bottom: 64px;
 	left: 6px;
+	
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 102px;
+
+	background-color: #e4e9eb;
 }
 
 .redmonster {
@@ -210,9 +230,11 @@ nav {
 	display: inline-block;
 	width: 6px;
 	height: 6px;
-	background-color: #ddd2c5;
 	margin-left: -1px;
+	
+	background-color: #ddd2c5;
 }
+
 .squares-block {
     margin-top: 37px;
     margin-left: 30px;
@@ -221,35 +243,41 @@ nav {
 .slider-end-line{
 	width: 960px;
 	height: 1px;
-	background-color: #e4e9eb;
 	margin: 7px auto 10px;
+
+	background-color: #e4e9eb;
 }
 
 .about-author {
-	background-color: #2eb398;
 	height: 340px;
-}
 
-.author {
-	background: url(assets/images/author.png) no-repeat 50% 50%
-}
-
-.about-author-img {
-	margin-left: -1px;
-	margin-right: 12px;
-	position: relative;
-	top: -16px;
+	background-color: #2eb398;
 }
 
 .about-author-block::before {
-	content: "";
-	width: 1px;
-	height: 300px;
-	background-color: #219d84;
-	display: inline-block;
 	position: relative;
 	bottom: -25px;
 	right: 19px;
+	
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 300px;
+	
+	background-color: #219d84;
+}
+
+.about-author-block::after {
+	position: relative;
+	bottom: -25px;
+	left: 19px;
+	
+	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 300px;
+	
+	background-color: #219d84;
 }
 
 .about-author-block {
@@ -257,42 +285,47 @@ nav {
 	margin: auto;
 }
 
-.about-author-block::after {
-	content: "";
-	width: 1px;
-	height: 300px;
-	background-color: #219d84;
-	display: inline-block;
+.about-author-img {
 	position: relative;
-	bottom: -25px;
-	left: 19px;
+	top: -16px;
+	
+	margin-left: -1px;
+	margin-right: 12px;
+}
+
+.author {
+	background: url(assets/images/author.png) no-repeat 50% 50%
 }
 
 .about-author-text {
-	width: 579px;
 	display: inline-block;
-	vertical-align: top;
+	width: 579px;
 	margin-top: 61px;
+
+	vertical-align: top;
 }
 
 .about-author-title {
-	font-family: 'Maven Pro', sans-serif;
 	font-weight: 400;
 	font-size: 1.8rem;
+	font-family: 'Maven Pro', sans-serif;
 	color: #d7fcf5;
 }
+
 .about-author-subtitle {
-	font-family: 'Maven Pro', sans-serif;
 	font-size: 1.1rem;
+	font-family: 'Maven Pro', sans-serif;
 	color: #20816d;
 }
+
 .about-author-description {
-	font-family: 'Lato', sans-serif;
-	font-size: 12px;
-	color: #d7fcf5;
 	margin-top: 13px;
+	
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
 	line-height: 21px;
 	letter-spacing: 0px;
+	color: #d7fcf5;
 }
 
 .icons-pack {
@@ -325,116 +358,133 @@ nav {
 .icon-twitter a {
 	background-color: #6ccbbe;
 }
-
 .icon-google a {
 	background-color: #7fd0c5;
 }
-
 .icon-dribbble a {
 	background-color: #6dcbbe;
 }
-
 .icons-pack a:hover {
 	background-color: #219d84;
 }
 
 footer {
-	background-color: #323232;
 	height: 565px;
+
+	background-color: #323232;
 }
+
 .wrap-footer-content {
-	width: 780px;
-	margin: auto;
 	position: relative;
 	top: 61px;
+	
+	width: 780px;
+	margin: auto;
 }
+
 .footer-title {
-	font-family: 'Maven Pro', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
+	font-family: 'Maven Pro', sans-serif;
 	color: #e0e0e0;
 }
+
 .footer-subtitle {
-	font-family: 'Maven Pro', sans-serif;
 	font-size: 18px;
+	font-family: 'Maven Pro', sans-serif;
 	color: #bebebe;
 }
 
 .footer-form {
-    width: 580px;
-    display: inline-block;
+		display: inline-block;
+		width: 580px;
 }
 
 .footer-comment {
-	font-family: 'Lato', sans-serif;
-	font-size: 13px;
-	color: #bebebe;
 	display: inline-block;
 	width: 184px;
+	
+	font-size: 13px;
+	font-family: 'Lato', sans-serif;
 	line-height: 22px;
+	color: #bebebe;
 }
 
 .footer-form-name {
 	height: 37px;
 	width: 580px;
-	background-color: #454545;
-	color: #bebebe;
-	border: 1px solid #323232;
 	margin-top: 16px;
+	
+	color: #bebebe;
+
+	border: 1px solid #323232;
+	background-color: #454545;
 } 
+
 .footer-form-email {
 	height: 37px;
 	width: 580px;
-	background-color: #454545;
-	color: #bebebe;
-	border: 1px solid #323232;
 	margin-top: 13px;
+		
+	color: #bebebe;
+	
+	border: 1px solid #323232;
+	background-color: #454545;
 }
+
 .footer-form-subject {
 	height: 35px;
 	width: 580px;
-	background-color: #454545;
-	color: #bebebe;
-	border: 1px solid #323232;
 	margin-top: 14px;
+	
+	color: #bebebe;
+
+	border: 1px solid #323232;
+	background-color: #454545;
 } 
+
 .footer-form-textarea {
 	height: 145px;
 	width: 576px;
-	background-color: #454545;
-	color: #bebebe;
-	border: 1px solid #323232;
 	margin-top: 15px;
+			
+	color: #bebebe;
+
+	border: 1px solid #323232;
+	background-color: #454545;
 }
+
 .footer-right-box {
-	margin-top: 13px;
 	display: inline-block;
 	width: 180px;
-	vertical-align: top;
+	margin-top: 13px;
 	margin-left: 15px;
-	/* font-size: 10px; */
+	
+	vertical-align: top;
 }
+
 .button-submit {
-	background-color: #2eb398;
-	border: 1px solid #2eb398;
-	color: #cff8f0;
 	width: 90px;
 	height: 36px;
 	margin-top: 12px;
-	/* display: block; */
-	/* text-align: right; */
 	float: right;
+		
 	font-size: 10px;
+	color: #cff8f0;
+	
+	border: 1px solid #2eb398;
+	background-color: #2eb398;
 }
 
 .footer-contact {
-	font-family: 'Maven Pro', sans-serif;
-	color: #bebebe;
-	font-weight: 700;
-	font-size: 12px;
 	display: inline-block;
 	margin-top: 34px;
+	
+	font-weight: 700;
+	font-size: 12px;
+	font-family: 'Maven Pro', sans-serif;
 	line-height: 21px;
+	color: #bebebe;
 }
 
 .footer-comment-span {
@@ -446,32 +496,29 @@ footer {
 }
 
 .footer-downline {
-	font-family: 'Maven Pro', sans-serif;
+	height: 43px;
+	
 	font-weight: 400;
 	font-size: 0.7rem;
+	font-family: 'Maven Pro', sans-serif;
 	color: #3d3d3d;
-	height: 43px;
+	
 	background-color: #222222;
 }
 
 .footer-downline-text {
-    /* position: relative; */
-    /* top: 12px; */
-    margin-top: 12px;
-    /* margin: auto 0px; */
-    display: inline-block;
-    /* vertical-align: middle; */
+	margin-top: 12px;
+	display: inline-block;
 }
 
 .fa-map-marker {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .fa-phone {
-    /* font-weight: 700; */
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 .fa-envelope {
-    margin-right: 9px;
+	margin-right: 9px;
 }
