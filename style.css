@@ -487,6 +487,110 @@ footer {
 	color: #bebebe;
 }
 
+.footer-contact a {
+	text-decoration: none;
+	color: #bebebe;
+}
+
+/* .hint-telefon {
+	position: absolute;
+	bottom: 192px;
+	right: 121px;
+	padding: 10px;
+	
+	opacity: 0; 
+	transition: 1s;
+	
+	font-weight: 700;
+	font-size: 12px;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 21px;
+	color: #bebebe;
+		
+	border-radius: 7px;
+	background-color: #454545; 
+} */
+
+
+.tooltip {
+	position: relative;
+}
+.tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.tooltip:hover .classic {
+	position: absolute; 
+	left: 6px; 
+	bottom: 33px;
+	
+	border-radius: 5px 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	z-index: 99;
+	margin-left: 0; 
+}
+.classic { 
+	padding: 0.8em 1em; 
+	background-color: #454545; 
+}
+.tooltip:hover .tooltip-triangle {
+	position: absolute;
+	top: -21px;
+	left: 16px;
+
+	content: '';
+	width: 0;
+	height: 0;
+	margin-left: 0;
+
+	border-style: solid;
+	border-width: 24px 10px 0 10px;
+	border-color: #454545 transparent transparent transparent;
+}
+
+
+
+/* .hint-telefon-triangle {
+	position: absolute;
+	top: 30px;
+	left: 16px;
+
+	content: '';
+	width: 0;
+	height: 0;
+
+	border-style: solid;
+	border-width: 24px 10px 0 10px;
+	border-color: #454545 transparent transparent transparent;
+} */
+
+/* .call:hover .hint-telefon {
+	position: absolute;
+	bottom: 192px;
+	right: 121px;
+	padding: 10px;
+	
+	
+	font-weight: 700;
+	font-size: 12px;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 21px;
+	color: #bebebe;
+		
+	border-radius: 7px;
+	background-color: #454545;
+	opacity: 1; 
+	transition: 1s;
+}
+.hint-email {
+
+}
+
+.hint-email-triangle {
+
+} */
+
 .footer-comment-span {
 	font-weight: 600;
 }
