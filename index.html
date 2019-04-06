@@ -9,21 +9,23 @@
 	</head>
 	<body>
 		<header>
-				<nav>
-					<ul class="hat">
-						<li class="hat-portfolio"><a href="#">portfolio</a></li>
-						<li class="hat-about"><a href="#">about</a></li>
-						<li class="hat-blog"><a href="#">blog</a></li>
-						<li><a href="#">get in touch</a></li>
-					</ul>
-					<div class="header-triangle">
-						<img src="assets/images/triangle.png" alt="">
-					</div>
-				</nav>
-				<div class="sub-header-triangle"></div>
+			<nav>
+				<input type="checkbox" id="dws-menu">
+				<label for="dws-menu"><i class="fa fa-bars"></i></label>
+				<ul class="hat">
+					<li class="hat-portfolio"><a href="#portfolio">portfolio</a></li>
+					<li class="hat-about"><a href="#about">about</a></li>
+					<li class="hat-blog"><a href="#">blog</a></li>
+					<li><a href="#get-in-touch">get in touch</a></li>
+				</ul>
+				<div class="header-triangle">
+					<img src="assets/images/triangle.png" alt="">
+				</div>
+			</nav>
+			<div class="sub-header-triangle"></div>
 		</header>
 		<main>
-			<section class="slider">
+			<section class="slider" id="portfolio">
 				<div class="row-1">
 					<div class="img">
 						<div class="img-layr-1">
@@ -105,7 +107,7 @@
 				</div>
 				<div class="slider-end-line"></div>
 			</section>
-			<section class="about-author">
+			<section class="about-author" id="about">
 				<div class="about-author-block">
 					<div class="img about-author-img">
 							<div class="img-layr-1">
@@ -144,14 +146,30 @@
 			</section>
 		</main>
 		<footer>
-			<div class="wrap-footer-content">
+			<div class="wrap-footer-content" id="get-in-touch">
 				<h3 class="footer-title">Get In Touch</h3>
 				<p class="footer-subtitle">In order to get in touch use the contact form below:</p>
 				<form class="footer-form" action="#" method="POST">
-					<input class="footer-form-name form-text" type="text" placeholder="Name (Required)" required>
-					<input class="footer-form-email form-text" type="email" placeholder="Email (Required)" required>
-					<input class="footer-form-subject form-text" type="text" placeholder="Subject">
-					<textarea class="footer-form-textarea form-text" placeholder="Write your message here..."></textarea>
+					<div class="input-width">
+						<div class="width-setter">
+							<input class="form-text" type="text" placeholder="Name (Required)" required>
+						</div>
+					</div>
+					<div class="input-width">
+						<div class="width-setter">
+							<input class="form-text" type="email" placeholder="Email (Required)" required>
+						</div>
+					</div>
+					<div class="input-width">
+						<div class="width-setter">
+							<input class="form-text" type="text" placeholder="Subject">
+						</div>
+					</div>
+					<div class="input-width-textarea">
+						<div class="width-setter-textarea">
+							<textarea class="form-text" placeholder="Write your message here..."></textarea>
+						</div>
+					</div>
 					<button class="button-submit" type="submit">SEND</button>
 				</form>
 				<div class="footer-right-box">
